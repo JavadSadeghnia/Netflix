@@ -1,0 +1,56 @@
+.RightBox{
+    /* width: 30%; */
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+select{
+    width: 150px;
+    height: 33px;
+    background-color: #ffffff00;
+    border-radius: 4px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    background-image: url(images/translate.jpg );
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: 0.3em center;
+}
+
+
+button{
+    width: 83px;
+    height: 33px;
+    color: white;
+    background-color: rgb(230, 0, 0);
+    border-radius: 5px;
+    margin-left: 22px;
+    font-weight: 700;
+    border: 1px solid red;
+    cursor: pointer;
+    transition: .4s;
+}
+
+button:hover{
+    background-color: rgb(172, 0, 0);
+    border: 1px solid rgb(172, 0, 0);
+}
+
+@media screen and (max-width: 960px) {
+    button{
+        margin-left: 10px;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    select{
+        width: 65px;
+        font-size: 0;
+        background-size: 55%;
+        background-position: 1em center;
+    }
+}

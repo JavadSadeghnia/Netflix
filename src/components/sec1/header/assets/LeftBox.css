@@ -1,0 +1,15 @@
+.LeftBox{
+    width: 30%;
+}
+
+svg{
+    width: 150px;
+    margin: 21px;
+}
+
+@media screen and (max-width: 960px) {
+    svg{
+        width: 90px;
+        margin-left: 40px;
+    }
+}

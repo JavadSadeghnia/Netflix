@@ -1,0 +1,161 @@
+.sec2 {
+    border-bottom: 8px solid rgb(47, 47, 47);
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sec2left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+}
+
+.sec2h1 {
+    width: 75%;
+    height: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    margin-left: 30px;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.sec2h3 {
+    width: 75%;
+    height: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    margin-left: 30px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.sec2right {
+    width: 38%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2figure1 {
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.sec2img1 {
+    width: 100%;
+}
+
+.sec2figure2 {
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    z-index: -1;
+}
+
+.sec2img2 {
+    width: 100%;
+}
+
+
+@media screen and (min-width: 1800px) {
+
+    .sec2figure1 {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .sec2 {
+        height: calc(100vw * 0.5)
+    }
+
+
+    .sec2text {
+        justify-content: left;
+    }
+
+    .sec2h1 {
+        width: 88%;
+    }
+
+    .sec2h3 {
+        width: 88%;
+    }
+
+    .sec2right {
+        width: 47%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .sec2 {
+        height: auto
+    }
+
+    .sec2h1 {
+        font-weight: 800;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .sec2h3 {
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .sec2left {
+        width: 100%;
+        height: 25%;
+        align-items: flex-start;
+        margin: 30px;
+    }
+
+    .sec2right {
+        height: 75%;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .sec2text {
+        justify-content: center;
+    }
+
+    .sec2figure1 {
+        width: 80%;
+    }
+
+    .sec2img1 {
+        height: 100%;
+        width: 100%;
+    }
+
+    .sec2h1,
+    .sec2h3 {
+        margin-left: 0px;
+        justify-content: center;
+
+    }
+}

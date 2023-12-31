@@ -1,0 +1,170 @@
+.sec6 {
+    border-bottom: 8px solid rgb(47, 47, 47);
+}
+
+.frequently {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 66px;
+    font-weight: 700;
+}
+
+.accordionMenu {
+    width: 77%;
+    margin: 23px auto;
+    font-size: 25px;
+}
+
+.menu {
+    margin-bottom: 8px;
+}
+
+.rowOne {
+    width: 100%;
+    height: 83px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 23px;
+    background-color: rgb(47, 47, 47);
+    position: relative;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.rowOne:hover {
+    background-color: rgb(67, 67, 67);
+}
+
+.X {
+    width: 40px;
+    transition: .01s;
+}
+
+.Xrotate {
+    transform: rotate(45deg);
+}
+
+.rowTwo {
+    background-color: rgb(47, 47, 47);
+    padding: 23px;
+    height: 0px;
+    display: none;
+}
+
+.rowTwoToggle {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.link {
+    display: block;
+    color: white;
+    padding-top: 23px;
+}
+
+/***************   searchBox   ***************/
+.searchBox {
+    width: 100%;
+    height: auto;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchBoxH3 {
+    width: 80%;
+    height: 50px;
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+input {
+    width: 380px;
+    height: 55px;
+    border-radius: 7px;
+    background-color: #00000079;
+    border: 1px solid gray;
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+}
+
+xmp {
+    width: 200px;
+    height: 55px;
+    background-color: rgb(234, 0, 0);
+    cursor: pointer;
+    transition: .4s;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 800;
+    border-radius: 7px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+xmp:hover {
+    background-color: rgb(169, 0, 0);
+}
+
+
+@media screen and (max-width: 960px) {
+    .searchBoxH3 {
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+    .frequently {
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .accordionMenu {
+        font-size: 19px;
+    }
+
+    .rowOne {
+        height: 77px;
+    }
+
+    .X {
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .accordionMenu {
+        width: 93%;
+    }
+}
